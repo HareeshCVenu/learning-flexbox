@@ -1,3 +1,4 @@
+
 .container{
     display: flex;
     align-items: center;
@@ -15,7 +16,7 @@
     text-align: center;
     width: 240px;
     height: 345px;
-    background-image:linear-gradient(rgb(18, 50, 230), rgba(81, 27, 245, 0.836));
+    background-image:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 .result{
     padding: 25px;
@@ -29,11 +30,11 @@
     border-radius: 25px ;
     flex-direction: column;
     text-align: center;
-    width: 240px;
-    height: 345px;
+    width: 300px;
+    height: 360px;
 }
 .insidecircle{
-    background-image: linear-gradient(rgb(25, 40, 125), rgb(64, 0, 255));
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -69,27 +70,33 @@
     flex-direction: column;
     justify-content: space-between;
     border: 1px solid;
-    height: 180px;
+    min-height: 200px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 .box1{
   display: flex;
-  border: 1px solid;
+  border-radius: 15px;
   padding: 8px;
+  background-color: hsla(0, 100%, 67%, 0.123);
 }
 .box2{
     display: flex;
-    border: 1px solid;
+    border-radius: 15px;
     padding: 8px;
+    background-color: hsla(39, 100%, 56%, 0.192);
   }
 .box3{
     display: flex;
-    border: 1px solid;
+    border-radius: 15px;
     padding: 8px;
+    background-color: hsla(166, 100%, 37%, 0.192);
   }
 .box4{
     display: flex;
-    border: 1px solid;
+    border-radius: 15px;
     padding: 8px;
+    background-color: hsla(234, 85%, 45%, 0.192);
   } 
 .submit{
     margin-top: 15px;
@@ -98,38 +105,42 @@
     border-radius: 25px;
 }
 .txt1{
-    width: fit-content;   
-    border: 1px solid;
+    width: fit-content;
+    margin-left: 2px;
+    color: hsl(0, 100%, 67%);
 }
 .m1{
     width: fit-content; 
     border: 1px solid;
-    margin-left:100px;
+    margin-left:80px;
 }
 .txt2{
-    width: fit-content;   
-    border: 1px solid;
+    width: fit-content;  
+    margin-left: 2px;
+    color: hsl(39, 100%, 56%);
 }
 .m2{
     width: fit-content; 
     border: 1px solid;
-    margin-left:100px;
+    margin-left:80px;
 }
 .txt3{
-    width: fit-content;   
-    border: 1px solid;
+    width: fit-content;
+    margin-left: 2px;
+    color: hsl(166, 100%, 37%);
 }
 .m3{
     width: fit-content; 
     border: 1px solid;
-    margin-left:114px;
+    margin-left:96px;
 }
 .txt4{
     width: fit-content;   
-    border: 1px solid;
+    margin-left: 2px;
+    color: hsl(234, 85%, 45%);
 }
 .m4{
     width: fit-content; 
     border: 1px solid;
-    margin-left:114px;
+    margin-left: 96px;
 }
